@@ -32,7 +32,7 @@ or combined on one like so:
 
 	set variables prefix-ipv4 ipv4-lo0 prefix 192.0.2.1 prefix-len 32
 
-set interfaces lo0.0 family inet address $ipv4-lo0:prefix-len (or have JunOS be context aware and apply the prefix-len automatically without having to specify)
+	set interfaces lo0.0 family inet address $ipv4-lo0:prefix-len (or have JunOS be context aware and apply the prefix-len automatically without having to specify)
 
 	set routing-options router-id $ipv4-lo0
 	set protocols bgp group foo type internal
