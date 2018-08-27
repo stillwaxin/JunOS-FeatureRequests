@@ -1,6 +1,7 @@
 # Interface Tags
 
 ## FEATURE / ENHANCEMENT REQUEST: Interface Tags
+This has already been submitted to Juniper as : ER-077402
 
 Please implement a feature such that one can apply one or more tags to an interface and have the interface apply at various other parts of config.
 
