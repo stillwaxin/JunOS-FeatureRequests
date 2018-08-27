@@ -1,6 +1,7 @@
 # Configuration Variables
 
 ## FEATURE / ENHANCEMENT REQUEST: Configuration Variables
+This has already been submitted to Juniper as : ER-077401
 
 Please implement a feature such that configurations can use variables. Specific use case is the following:
 Current config may look like this:
