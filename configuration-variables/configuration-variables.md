@@ -15,7 +15,8 @@ Current config may look like this:
 	set routing-instances bam route-distinguisher 192.0.2.1:5349
 
 What I would to be able to do is represent the IP address in a single location in config and for JunOS to use it as substitute where possible. Example like so:
-set variables string ipv4-lo0 value 192.0.2.1
+
+	set variables string ipv4-lo0 value 192.0.2.1
 
 	set interfaces lo0.0 family inet address $ipv4-lo0/32
 	set routing-options router-id $ipv4-lo0
